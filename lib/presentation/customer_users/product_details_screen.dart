@@ -62,12 +62,12 @@ class ProductDetailScreen extends StatelessWidget {
           ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 61, 65, 119),
+                backgroundColor: Color.fromARGB(255, 44, 52, 153),
                 shape: ContinuousRectangleBorder(
                     borderRadius: BorderRadius.circular(5)),
               ),
               child: const Text(
-                'Sell your product',
+                'Buy Now',
                 style: TextStyle(color: Colors.white, fontSize: 18),
               ))
         ]),
